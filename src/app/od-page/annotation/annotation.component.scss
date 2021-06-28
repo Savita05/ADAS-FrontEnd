@@ -1,0 +1,125 @@
+.projectHeader{
+    background: #56545a;
+    border: 1px solid gray;
+    margin-top: -18px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.alter{ background-color: #56545a !important;}
+.projectItems{
+    display: flex;
+    justify-content: space-around;
+    margin: auto 0;
+   
+}
+.projectItems  li{
+    list-style:  none;
+    color: #fff;
+    margin-right: 15px;
+}
+.projectItems  li a:hover{
+  text-decoration: none;
+  color: #fff
+}
+.ProjectContent-left {
+    background: dimgray;
+    color: white;
+     height: 85vh;
+}
+.ProjectContent-left .tab-content.tab-space{
+    margin-left: -14px;
+    margin-right: -15px;
+}
+.TabsContent{
+    background: dimgray;
+    color: white;
+// height: 55vh;
+}
+.ProjectContent-right .tab-content.tab-space{
+    margin: 20px;
+}
+.ProjectContent-left ul.nav.nav-pills{
+    // width: 350px;
+}
+.ProjectContent-left ul.nav.nav-pills li{
+    /* margin: 10px;
+    border: 1px solid #007bff;
+    border-radius: 10px; */
+    margin-left: -14px;
+    width: 51%;
+}
+.projectItems-left li {
+    padding-right: 10px;
+    border-right: 1px solid white;
+}
+
+
+
+.ProjectContent-left ul.nav.nav-pills li a,.ProjectContent-right ul.nav.nav-pills li{
+ color: white;
+}
+.ProjectContent-right ul.nav.nav-pills{
+    height: 20px;
+}
+.ProjectContent-right ul.nav.nav-pills li.nav-item{
+   width: 33.3%;
+}
+.ProjectContent-right ul.nav.nav-pills li a{
+    font-size: 11px;
+    color: #fff;
+    padding: 11px 0px 7px 4px;
+    height: 40px;
+}
+/* .search-container {
+    float: right;
+  } */
+  .tab-content>.active{
+      display: flex;
+      flex-direction: column;
+  }
+  input[type=text] {
+    padding: 6px;
+    font-size: 16px;
+     border: 2px solid black;
+    width: 260px;
+    margin-left: -26px;
+  }
+  .search-container {
+    width: 281px;
+    margin-left: 6px;
+  }
+ .search-container button {
+    // float: right;
+    padding: 8px 10px;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  
+ .search-container button:hover {
+    background: #ccc;
+  }
+  .box {
+    border-bottom: 1px dashed;
+  }
+  .categoryList{
+    margin-left: -58px;
+    margin-right: -19px;
+  }
+  .categoryList ul li{
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      background: #fff;
+      color: gray;
+    padding: 5px 10px;
+    border:2px solid #fff;
+  }
+  .annotaionTools{
+    border: 1px solid gray;
+    min-height: 257px;
+    margin: -19px auto;
+    height: 250px;
+  }
+  
